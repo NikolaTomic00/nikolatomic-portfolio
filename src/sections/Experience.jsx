@@ -66,11 +66,18 @@ export const Experience = () => {
            mt-4 mb-6 animate-fade-in animation-delay-100
             text-secondary-foreground"
           >
-            Experience built through real projects and constant learning.
+            Experience built through{" "}
+            <span className="font-serif italic font-normal text-white">
+              real projects
+            </span>{" "}
+            and{" "}
+            <span className="font-serif italic font-normal text-white">
+              constant learning.
+            </span>
           </h2>
 
           <p
-            className="text-white
+            className="text-muted-foreground
            animate-fade-in animation-delay-200"
           >
             A timeline of my growth as a developer, from learning the basics to
