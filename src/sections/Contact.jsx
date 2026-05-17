@@ -59,6 +59,9 @@ export const Contact = () => {
         );
       }
 
+      // Initialize EmailJS with the public key before sending
+      emailjs.init(publicKey);
+
       await emailjs.send(
         serviceId,
         templateId,
@@ -67,7 +70,6 @@ export const Contact = () => {
           email: formData.email,
           message: formData.message,
         },
-        publicKey,
       );
 
       setSubmitStatus({
