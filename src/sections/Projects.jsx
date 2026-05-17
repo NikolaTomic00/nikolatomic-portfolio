@@ -23,8 +23,8 @@ const projects = [
       "Express.js",
       "Stripe",
     ],
-    link: "https://pawmeet.onrender.com",
-    github: "https://github.com/NikolaTomic00/PawMeet",
+    link: "https://mern-ecommerce-gas2.onrender.com",
+    github: "https://github.com/NikolaTomic00/mern-ecommerce",
   },
   {
     title: "PawMeet",
@@ -39,8 +39,8 @@ const projects = [
       "Socket.io",
       "Cloudinary",
     ],
-    link: "#",
-    github: "#",
+    link: "https://pawmeet.onrender.com",
+    github: "https://github.com/NikolaTomic00/PawMeet",
   },
   {
     title: "AI SaaS Landing Page",
@@ -57,7 +57,7 @@ const projects = [
       "Fullstack Note Taking App Full-stack application for creating, updating, and deleting notes, built with a focus on scalability and basic backend protection using middleware such as rate limiting to prevent excessive requests and ensure API stability.",
     image: "/projects/project5.png",
     tags: ["React", "MongoDB", "Express.jss", "Node.js"],
-    link: "https://mern-thinkboard-yg2p.onrender.com/https://mern-thinkboard-yg2p.onrender.com/",
+    link: "https://mern-thinkboard-yg2p.onrender.com",
     github: "https://github.com/NikolaTomic00/thinkboard",
   },
   {
