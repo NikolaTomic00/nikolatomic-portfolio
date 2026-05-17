@@ -79,7 +79,7 @@ export const Hero = () => {
               <h1 className="text-5xl md:text-6xl lg:text-6xl font-bold leading-tight animate-fade-in animation-delay-100">
                 Turning ideas into
                 <span className="text-primary glow-text"> modern</span> web
-                applications
+                aplicatons
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
                 Hi, I’m Nikola Tomić — a developer who enjoys building websites
