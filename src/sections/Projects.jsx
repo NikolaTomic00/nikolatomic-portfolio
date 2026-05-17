@@ -16,7 +16,7 @@ const projects = [
       "A full-featured e-commerce solution with authentication (login and registration), inventory management, payment processing, coupon system, “People Also Bought” recommendations, and an analytics dashboard.",
     image: "/projects/project2.png",
     tags: [
-      "React",
+      "React.js",
       "Tailwind CSS",
       "MongoDB",
       "Node.js",
@@ -32,9 +32,9 @@ const projects = [
       "PawMeet is a full-stack real-time chat application designed for dog lovers to connect, chat, and share moments with their pets. Users can create accounts, upload profile pictures, see who is online, exchange instant messages, and share images in real time.",
     image: "/projects/project3.png",
     tags: [
-      "React",
+      "React.js",
       "Node.js",
-      "MongoDb",
+      "MongoDB",
       "Express.js",
       "Socket.io",
       "Cloudinary",
@@ -56,7 +56,7 @@ const projects = [
     description:
       "Fullstack Note Taking App Full-stack application for creating, updating, and deleting notes, built with a focus on scalability and basic backend protection using middleware such as rate limiting to prevent excessive requests and ensure API stability.",
     image: "/projects/project5.png",
-    tags: ["React", "MongoDB", "Express.jss", "Node.js"],
+    tags: ["React.js", "MongoDB", "Express.js", "Node.js"],
     link: "https://mern-thinkboard-yg2p.onrender.com",
     github: "https://github.com/NikolaTomic00/thinkboard",
   },
@@ -65,7 +65,7 @@ const projects = [
     description:
       "A simple recipe finder that helps you turn ingredients into real meals — fast, easy, and without overthinking.",
     image: "/projects/project6.png",
-    tags: ["Html", "CSS", "JavaScripts"],
+    tags: ["Html", "CSS", "JavaScript"],
     link: " https://nikolatomic00.github.io/recipe-finder/",
     github: "https://github.com/NikolaTomic00/recipe-finder",
   },
