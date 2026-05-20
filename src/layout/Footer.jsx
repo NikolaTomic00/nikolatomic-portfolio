@@ -7,7 +7,11 @@ const socialLinks = [
     href: "https://www.linkedin.com/in/nikolatomic00/",
     label: "LinkedIn",
   },
-  { icon: Instagram, href: "#", label: "Twitter" },
+  {
+    icon: Instagram,
+    href: "https://github.com/NikolaTomic00",
+    label: "Twitter",
+  },
 ];
 
 const footerLinks = [

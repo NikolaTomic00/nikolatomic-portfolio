@@ -125,7 +125,7 @@ export const Hero = () => {
                   icon: Linkedin,
                   href: "https://www.linkedin.com/in/nikolatomic00/",
                 },
-                { icon: Instagram, href: "#" },
+                { icon: Instagram, href: "https://www.instagram.com/tomicn_" },
               ].map((social, idx) => (
                 <a
                   key={idx}
