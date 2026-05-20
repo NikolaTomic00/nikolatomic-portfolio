@@ -7,8 +7,23 @@ import {
   Twitter,
   Download,
   Instagram,
+  GitBranch,
 } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
+import {
+  SiReact,
+  SiJavascript,
+  SiTypescript,
+  SiNodedotjs,
+  SiExpress,
+  SiPostgresql,
+  SiMongodb,
+  SiVercel,
+  SiTailwindcss,
+  SiGit,
+  SiRender,
+  SiNextdotjs,
+} from "react-icons/si";
 
 const dots = [...Array(30)].map(() => ({
   left: `${Math.random() * 100}%`,
@@ -18,18 +33,18 @@ const dots = [...Array(30)].map(() => ({
 }));
 
 const skills = [
-  "React",
-  "JavaScript",
-  "TypeScript",
-  "Node.js",
-  "Express.js",
-  "PostgreSQL",
-  "MongoDB",
-  "Vercel",
-  "Tailwind CSS",
-  "Git",
-  "GitHub Actions",
-  "Render",
+  { name: "React", icon: SiReact },
+  { name: "JavaScript", icon: SiJavascript },
+  { name: "TypeScript", icon: SiTypescript },
+  { name: "Next.js", icon: SiNextdotjs },
+  { name: "Node.js", icon: SiNodedotjs },
+  { name: "Express.js", icon: SiExpress },
+  { name: "PostgreSQL", icon: SiPostgresql },
+  { name: "MongoDB", icon: SiMongodb },
+  { name: "Tailwind CSS", icon: SiTailwindcss },
+  { name: "Vercel", icon: SiVercel },
+  { name: "Git", icon: SiGit },
+  { name: "Render", icon: SiRender },
 ];
 
 export const Hero = () => {
@@ -177,9 +192,7 @@ export const Hero = () => {
             <div className="flex animate-marquee">
               {[...skills, ...skills].map((skill, idx) => (
                 <div key={idx} className="flex-shrink-0 px-8 py-4">
-                  <span className="text-xl font-semibold text-muted-foreground/50 hover:text-muted-foreground transition-colors">
-                    {skill}
-                  </span>
+                  <skill.icon className="w-8 h-8 text-white hover:text-muted-foreground transition-colors" />
                 </div>
               ))}
             </div>
