@@ -9,8 +9,8 @@ const socialLinks = [
   },
   {
     icon: Instagram,
-    href: "https://github.com/NikolaTomic00",
-    label: "Twitter",
+    href: "https://www.instagram.com/tomicn_",
+    label: "Instagram",
   },
 ];
 
