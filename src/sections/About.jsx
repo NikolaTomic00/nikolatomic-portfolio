@@ -53,13 +53,10 @@ export const About = () => {
               </p>
               <p>
                 React is at the core of my development work, alongside
-                full-stack engineering and modern web application architecture.
-                I design and build scalable web applications and SaaS platforms.
-              </p>
-              <p>
-                In addition to building websites, web applications, and digital
-                products, I also help others turn their ideas into modern and
-                functional online solutions.
+                full-stack engineering and modern web application architecture,
+                allowing me to design and build scalable websites, web
+                applications, and digital products while helping clients turn
+                their ideas into modern and functional online solutions.
               </p>
             </div>
 

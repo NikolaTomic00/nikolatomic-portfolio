@@ -91,15 +91,13 @@ export const Hero = () => {
 
             {/* Headline */}
             <div className="space-y-4">
-              <h1 className="text-5xl md:text-6xl lg:text-6xl font-bold leading-tight animate-fade-in animation-delay-100">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight animate-fade-in animation-delay-100">
                 Turning ideas into
-                <span className="text-primary glow-text"> modern</span> web
-                aplicatons
+                <span className="text-primary glow-text"> modern</span> websites
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I’m Nikola Tomić — a developer who enjoys building websites
-                and web apps for myself and for others. I mostly work with
-                modern technologies like React, Node.js, TypeScript
+                Building fast and responsive web applications with modern
+                technologies.
               </p>
             </div>
 
@@ -165,10 +163,8 @@ export const Hero = () => {
                 </div>
                 {/* Stats Badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                  <div className="text-2xl font-bold text-primary">2+</div>
-                  <div className="text-xs text-muted-foreground">
-                    Years Exp.
-                  </div>
+                  <div className="text-2xl font-bold text-primary">25</div>
+                  <div className="text-xs text-muted-foreground">Years Old</div>
                 </div>
               </div>
             </div>
