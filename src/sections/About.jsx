@@ -1,23 +1,22 @@
-import { Code2, Lightbulb, Rocket, Users } from "lucide-react";
+import { Lightbulb, MonitorSmartphone, Rocket, Search } from "lucide-react";
 
 const highlights = [
   {
-    icon: Code2,
-    title: "Clean Code",
+    icon: MonitorSmartphone,
+    title: "Responsive Design",
     description:
-      "Writing maintainable, scalable code that stands the test of time.",
+      "Your website will look clean and responsive across all devices and screen sizes.",
   },
   {
     icon: Rocket,
-    title: "Performance",
+    title: "Fast Performance",
     description:
       "Optimizing for speed and delivering lightning-fast user experiences.",
   },
   {
-    icon: Users,
-    title: "Collaboration",
-    description:
-      "Working closely with clients to make sure every detail and requirement is fully met.",
+    icon: Search,
+    title: "SEO Optimization",
+    description: "Built to improve visibility and reach across search engines.",
   },
   {
     icon: Lightbulb,
