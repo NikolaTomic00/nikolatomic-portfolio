@@ -28,15 +28,17 @@ const experiences = [
   },
   {
     period: "2023",
-    role: "Frontend Development Journey",
+    role: "Fullstack Projects",
     company: "Learning",
     description:
-      "Started learning web development through HTML, CSS, JavaScript, and React, building projects and continuously improving through hands-on practice. After that, I transitioned into backend development, where I became familiar with server-side programming, APIs, databases, and building full-stack applications.",
+      "Built multiple fullstack projects showcasing skills across the entire web development stack — from responsive frontends with React and Next.js to robust backends with Node.js, Express, and databases. Each project reinforced real-world problem-solving through hands-on practice.",
     technologies: [
       "HTML",
       "CSS",
       "JavaScript",
       "React",
+      "Next.js",
+      "Tailwind CSS",
       "Node.js",
       "Express.js",
     ],

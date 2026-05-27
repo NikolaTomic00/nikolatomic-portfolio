@@ -2,6 +2,15 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
+    title: "Veseli Piksel",
+    description:
+      "Veseli Piksel is a web app for generating stylized AI portraits and images without writing prompts or adjusting complex settings. The user uploads an image, chooses a style, previews the direction, and generates a result with one click.",
+    image: "/projects/project6.png",
+    tags: ["React", "Next.js", "Typescript", "PostgreSQL", "Tailwind CSS"],
+    link: "",
+    github: "",
+  },
+  {
     title: "ePozivnice",
     description:
       "Modern digital invitation platform that simplifies the entire event organization process. The platform solves a real problem by allowing users to easily create and share personalized invitations with RSVP tracking, guest management, and integrated Google Maps navigation.",
@@ -59,15 +68,6 @@ const projects = [
     tags: ["React.js", "MongoDB", "Express.js", "Node.js"],
     link: "https://mern-thinkboard-yg2p.onrender.com",
     github: "https://github.com/NikolaTomic00/thinkboard",
-  },
-  {
-    title: "Recipe Finder App",
-    description:
-      "A simple recipe finder that helps you turn ingredients into real meals — fast, easy, and without overthinking.",
-    image: "/projects/project6.png",
-    tags: ["Html", "CSS", "JavaScript"],
-    link: " https://nikolatomic00.github.io/recipe-finder/",
-    github: "https://github.com/NikolaTomic00/recipe-finder",
   },
 ];
 
