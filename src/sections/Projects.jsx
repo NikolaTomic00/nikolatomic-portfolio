@@ -7,8 +7,8 @@ const projects = [
       "Veseli Piksel is a web app for generating stylized AI portraits and images without writing prompts or adjusting complex settings. The user uploads an image, chooses a style, previews the direction, and generates a result with one click.",
     image: "/projects/project6.png",
     tags: ["React", "Next.js", "Typescript", "PostgreSQL", "Tailwind CSS"],
-    link: "",
-    github: "",
+    link: "https://veselipiksel.vercel.app",
+    github: "https://github.com/NikolaTomic00/veseli-piksel",
   },
   {
     title: "ePozivnice",
